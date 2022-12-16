@@ -1,0 +1,66 @@
+body {
+  background-color: #328fec;
+}
+
+#signup-form-o {
+  background-color: #328fec;
+  width: 94.7vw;
+  height: 89vh;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signup-form-i {
+  width: 35%;
+  min-width: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 65px 0px;
+  box-shadow: 1px 1px 100px lightslategray;
+}
+#file {
+  display: none;
+}
+#signup-form-i #file-upload {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+#signup-form-i path {
+  color: #328fec;
+}
+#signup-form-i svg {
+  font-size: 28px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.err-msg-1,
+.success-msg {
+  border: 1px solid red;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 81vw;
+  position: fixed;
+  color: white;
+  font-size: larger;
+  padding: 13px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 25px;
+}
+.success-msg {
+  border: 1px solid green;
+  background-color: rgba(0, 185, 0, 0.5);
+}
+.err-msg-1 path,
+.success-msg path {
+  stroke: white;
+}
+.err-msg-1 svg,
+.success-msg svg {
+  font-size: larger;
+  cursor: pointer;
+}

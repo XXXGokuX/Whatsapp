@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#login-form-o {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  box-shadow: 1px 1px 6px grey;
+  position: relative;
+}
+.err-msg {
+  border: 1px solid red;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 50vw;
+  position: absolute;
+  color: white;
+  font-size: larger;
+  padding: 13px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.err-msg svg,
+.err-msg path {
+  stroke: white;
+  cursor: pointer;
+}
+#login-form-i {
+  display: flex;
+}
+
+#login-left-i,
+#login-right-i {
+  padding: 35px;
+  text-align: center;
+}
+
+#login-left-o,
+#login-right-o {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#login-left-o {
+  color: white;
+  background-color: #4dbbff;
+}
+
+#login-left-i p {
+  margin: 10px;
+}
+#login-left-i h1 {
+  font-size: 40px;
+  padding: 25px;
+  position: relative;
+}
+#login-left-i h1::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  border: 3px solid;
+  border-radius: 12px;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#login-left-i h1 + p {
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+#login-right-i h1 {
+  color: #127ce9;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#login-right-i p {
+  font-size: 8px;
+  color: lightgray;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 600px) {
+  #login-form-i {
+    flex-direction: column;
+  }
+  #login-form-o {
+    height: initial;
+  }
+}
+#form .page-link,
+#form-1 .page-link {
+  font-size: medium;
+  margin: 32px 0px;
+  font-weight: 500;
+  color: darkblue;
+}
+.page-link a {
+  text-decoration: none;
+  padding-left: 8px;
+}

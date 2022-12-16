@@ -1,0 +1,22 @@
+.btn {
+  width: 50%;
+  margin: auto;
+  padding: 8px 0px;
+  background-color: #328fec;
+  border-radius: 22px;
+}
+.btn button {
+  border: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: transparent;
+}
+/*Extra designs*/
+.btn {
+  margin: 15px auto;
+  text-align: center;
+  padding: 8px 12px;
+}

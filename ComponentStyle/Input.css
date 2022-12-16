@@ -1,0 +1,24 @@
+.inp-field {
+  background-color: #f8f8f8;
+  padding: 8px 6px;
+  border-left: 4px solid #328fec;
+  width: 50%;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+}
+.inp-field input {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  background-color: transparent;
+}
+.inp-field input::placeholder {
+  font-weight: 600;
+}
+.inp-field #icon svg {
+  font-size: 19px;
+  opacity: 1;
+}
